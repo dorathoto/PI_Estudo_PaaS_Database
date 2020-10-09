@@ -1,6 +1,15 @@
 ![](https://img.shields.io/badge/build-passing-brightgreen)  ![](https://img.shields.io/badge/docker%20build-automated-066da5) ![](https://img.shields.io/badge/license-MIT-green)
 
-# Hackthon.CallForCode
+# Projeto integrador da Univesp
+## Polo Atibaia
+
+ARAMIS GARCIA PIRES
+DENISE YUKI CAPASSO	 
+FERNANDO ZAMBO DE O. B. FRANCISCO
+HENRIQUE PEREIRA CAMACHO
+LEONARDO STOROLLI DORATHOTO
+WANDERSON JOSÉ REZENDE
+
 ### Equipe: Univesp Atibaia nº 1
 
 Estudos de banco de dados PaaS em aplicativos mobile em PWA
