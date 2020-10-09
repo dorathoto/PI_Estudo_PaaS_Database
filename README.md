@@ -48,7 +48,7 @@ Apesar de termos apenas 4 dias de desenvolvimento, escolhemos tecnologias que no
 - [Tela de login [com senha salva para testes]](https://pi-paas-univesp.azurewebsites.net/account/login "Tela de login [com senha salva para testes]")
 
 **PrintScreen do projeto**
-[https://github.com/Hackthon-The-earth-defenders/Hackthon.CallForCode/tree/master/prints](https://github.com/Hackthon-The-earth-defenders/Hackthon.CallForCode/tree/master/prints)
+[https://github.com/dorathoto/PI_Estudo_PaaS_Database/tree/main/prints](https://github.com/dorathoto/PI_Estudo_PaaS_Database/tree/main/prints)
 
 <a href="https://ibb.co/FmmzcxF" target="_blank"><img src="https://i.ibb.co/FmmzcxF/App-Cadastro-Projeto-Desktop.png" alt="App-Cadastro-Projeto-Desktop" border="0"></a>
 <a href="https://ibb.co/kqjq0G2"  target="_blank"><img src="https://i.ibb.co/kqjq0G2/APPDesktop.png" alt="APPDesktop" border="0"></a>
