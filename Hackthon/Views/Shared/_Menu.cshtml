@@ -1,0 +1,44 @@
+<aside id="left-panel">
+<div class="login-info">
+    <span>
+
+
+            <img class="online" src="~/img/no_foto.png" alt="Erro" onerror="ImgError(this)" />
+   
+
+    </span>
+</div>
+<nav>
+    <ul>
+        <li is-active-route asp-controller="Home">
+            <a asp-controller="Home" asp-action="index" title="Página Inicial">
+                <i class="fas fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">Home</span>
+            </a>
+        </li>
+
+        <li is-active-route asp-controller="Projetos">
+            <a href="#">
+                <i class="fa-lg fa-fw fas fa-cube"></i> <span class="menu-item-parent">Projetos</span>
+            </a>
+            <ul>
+                <li is-active-route asp-controller="Projetos" asp-action="Index">
+                    <a asp-controller="Projetos" asp-action="Index" title="Listagem dos Projetos">
+                        <i class="fas fa-lg fa-fw fa-gear"></i> <span class="menu-item-parent">Listar</span>
+                    </a>
+                </li>
+                <li is-active-route asp-controller="Projetos" asp-action="create">
+                    <a asp-controller="Projetos" asp-action="create" title="Cadastrar novo Projetos">
+                        <i class="fas fa-lg fa-fw fa-picture-o"></i> <span class="menu-item-parent">Cadastrar</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+
+
+    </ul>
+</nav>
+<span class="minifyme" data-action="minifyMenu">
+    <i class="fas fa-arrow-circle-left hit"></i>
+</span>
+</aside>

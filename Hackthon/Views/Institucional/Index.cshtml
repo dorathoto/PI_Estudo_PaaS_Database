@@ -1,0 +1,105 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @await Html.PartialAsync("_InstHeader")
+</head>
+
+<body>
+    <main>
+        @await Html.PartialAsync("_InstMenu")
+
+
+        @await Html.PartialAsync("_InstCarrousel")
+
+        @await Html.PartialAsync("_InstSobre")
+
+        @await Html.PartialAsync("_InstPorque")
+
+        @await Html.PartialAsync("_InstCadastro")
+
+
+
+
+
+        <footer class="text-center">
+            <div class="g-py-30 g-py-80--md">
+                <div class="container">
+                    <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary">
+                        <h4 class="g-line-height-1 g-font-weight-700 g-font-size-12 g-color-primary g-mb-20">Contato</h4>
+                        <h2 class="u-heading-v2__title g-font-weight-700 g-font-size-30 g-font-size-40--md g-theme-color-gray-dark-v1">Nossos contatos</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <address class="row g-color-gray-dark-v4 mb-0">
+                    <div class="col-sm-6 col-md-6 g-theme-bg-gray-dark-v1 px-0 g-py-60">
+                        <i class="icon-line icon-map d-inline-block g-font-size-30 g-font-size-40--md g-color-primary g-mb-30"></i>
+                        <h3 class="text-uppercase g-font-size-11 g-theme-color-gray-light-v3 g-mb-5">Local</h3>
+                        <strong class="g-font-size-16 g-color-white">Brasil</strong>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 g-theme-bg-gray-dark-v2 px-0 g-py-60">
+                        <i class="icon-line icon-screen-smartphone d-inline-block g-font-size-30 g-font-size-40--md g-color-primary g-mb-30"></i>
+                        <h3 class="text-uppercase g-font-size-11 g-theme-color-gray-light-v3 g-mb-5">Git</h3>
+                        <strong class="g-font-size-16 g-color-white">https://github.com/dorathoto/PI_Estudo_PaaS_Database</strong>
+                    </div>
+
+                </address>
+            </div>
+
+            <div id="contact" class="g-color-gray-dark-v5 g-bg-gray-light-v5 g-py-30 g-py-70--md">
+                <div class="container">
+                    <div class="u-heading-v8-2 g-mb-60">
+                        <h2 class="h1 text-uppercase u-heading-v8__title g-font-weight-700 g-font-size-26 g-font-secondary g-color-gray-dark-v2 g-mb-25">Você tem dúvidas?</h2>
+                        <p class="mb-0">Entre em contato conosco!.</p>
+                    </div>
+
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 form-group g-mb-30">
+                                <input id="inputGroup1_1" class="form-control h-100 g-font-size-default g-theme-color-gray-dark-v2 g-placeholder-inherit g-bg-white g-bg-white--focus g-brd-white g-brd-gray-light-v3--hover g-brd-gray-light-v3--focus g-rounded-1 g-py-13 g-px-12 g-transition-0_2 g-transition--ease-in" type="text" placeholder="Seu nome">
+                            </div>
+
+                            <div class="col-md-6 form-group g-mb-30">
+                                <input id="inputGroup1_4" class="form-control h-100 g-font-size-default g-theme-color-gray-dark-v2 g-placeholder-inherit g-bg-white g-bg-white--focus g-brd-white g-brd-gray-light-v3--hover g-brd-gray-light-v3--focus g-rounded-1 g-py-13 g-px-12 g-transition-0_2 g-transition--ease-in" type="text" placeholder="Assunto">
+                            </div>
+
+                            <div class="col-md-12 form-group g-mb-30">
+                                <textarea id="inputGroup1_5" class="form-control g-resize-none g-font-size-default g-theme-color-gray-dark-v2 g-placeholder-inherit g-bg-white g-bg-white--focus g-brd-white g-brd-gray-light-v3--hover g-brd-gray-light-v3--focus g-rounded-1 g-py-13 g-px-12 g-transition-0_2 g-transition--ease-in" rows="6" placeholder="Mensagem"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <button class="btn u-btn-primary btn-md text-uppercase g-font-weight-700 g-font-size-12 rounded-0 g-px-25 g-py-10 mb-0" type="submit" role="button">Enviar mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+        </footer>
+
+
+        <a class="js-go-to u-go-to-v1" href="#"
+           data-type="fixed"
+           data-position='{
+           "bottom": 15,
+           "right": 15
+         }'
+           data-offset-top="400"
+           data-compensation="#js-header"
+           data-show-effect="zoomIn">
+            <i class="hs-icon hs-icon-arrow-top"></i>
+        </a>
+    </main>
+
+
+    @await Html.PartialAsync("_InstScript")
+
+</body>
+</html>

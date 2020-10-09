@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    @{ await Html.RenderPartialAsync("_metaName"); }
+
+    @{ await Html.RenderPartialAsync("_StylesheetsPartial"); }
+
+    @RenderSection("Estilos", false)
+</head>
+<body>
+    @{ await Html.RenderPartialAsync("_Topo"); }
+    @{ await Html.RenderPartialAsync("_Menu"); }
+    <div id="main" role="main">
+
+        <div id="content">
+            @RenderBody()
+        </div>
+    </div>
+
+    @{ await Html.RenderPartialAsync("_Footer"); }
+    @{ await Html.RenderPartialAsync("_Scripts"); }
+
+    <script>
+        $(function () {
+            pageSetUp();
+        });
+    </script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
